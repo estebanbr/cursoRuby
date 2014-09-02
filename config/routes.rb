@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
    root  'sitio#inicio'
 
+   get 'acerca' => 'sitio#acerca'
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
